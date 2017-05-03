@@ -13,5 +13,9 @@ if (!hasProperty('mainClass')) {
   ext.mainClass = 'org.limmen.jtelnet.server.TelnetServer'
 }
 
+apply plugin: 'application'
+
+mainClassName = "org.limmen.jtelnet.server.TelnetServer"
+
 dependencies {
 }
